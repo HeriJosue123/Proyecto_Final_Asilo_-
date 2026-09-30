@@ -1,5 +1,4 @@
 # SeniorCare
-Este es el nombre provisional del sistema de gestión integral para una residencia de adultos mayores.
 
 ## Descripción
 El sistema SeniorCare es una aplicación web enfocada en administrar las operaciones diarias de una residencia para la tercera edad, facilitando el control de los residentes, el personal y las actividades del establecimiento.
