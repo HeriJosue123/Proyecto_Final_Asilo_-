@@ -1,12 +1,12 @@
 using Microsoft.Data.SqlClient;
-using SeniorCare.Data;
+using VITALIA.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-var connectionString = builder.Configuration.GetConnectionString("SeniorCareConnection");
+var connectionString = builder.Configuration.GetConnectionString("VITALIAConnection");
 builder.Services.AddSingleton(new ConexionBD(connectionString!));
 
 var app = builder.Build();

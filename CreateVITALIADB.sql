@@ -1,10 +1,10 @@
-IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = N'SeniorCareDB')
+IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = N'VITALIADB')
 BEGIN
-    CREATE DATABASE [SeniorCareDB];
+    CREATE DATABASE [VITALIADB];
 END
 GO
 
-USE [SeniorCareDB];
+USE [VITALIADB];
 GO
 
 -- 1. Usuarios

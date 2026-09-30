@@ -1,6 +1,6 @@
 using System;
 
-namespace SeniorCare.Models
+namespace VITALIA.Models
 {
     public class Residente
     {

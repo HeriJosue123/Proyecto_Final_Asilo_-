@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using SeniorCare.Data;
+using VITALIA.Data;
 
-namespace SeniorCare.Controllers
+namespace VITALIA.Controllers
 {
     public class ResidenteController : Controller
     {

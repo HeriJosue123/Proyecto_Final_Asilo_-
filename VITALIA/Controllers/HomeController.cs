@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using SeniorCare.Models;
+using VITALIA.Models;
 
-namespace SeniorCare.Controllers;
+namespace VITALIA.Controllers;
 
 public class HomeController : Controller
 {

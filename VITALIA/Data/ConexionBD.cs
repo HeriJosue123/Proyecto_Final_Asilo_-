@@ -1,6 +1,6 @@
 using Microsoft.Data.SqlClient;
 
-namespace SeniorCare.Data
+namespace VITALIA.Data
 {
     public class ConexionBD
     {

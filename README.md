@@ -1,7 +1,7 @@
-# SeniorCare
+# VITALIA: Plataforma Integral de Gestión, Cuidado y Bienestar del Adulto Mayor
 
 ## Descripción
-El sistema SeniorCare es una aplicación web enfocada en administrar las operaciones diarias de una residencia para la tercera edad, facilitando el control de los residentes, el personal y las actividades del establecimiento.
+VITALIA es una plataforma integral para la gestión y organización del cuidado de adultos mayores en residencias, diseñada para facilitar el seguimiento de residentes, personal, actividades, medicamentos, visitas e incidentes, centralizando su información e historial para mejorar la organización y atención diaria.
 
 ## Objetivo
 El sistema busca resolver los problemas comunes en la gestión manual de los asilos, centralizando la información para mantener registros organizados sobre los residentes, su medicación, familiares responsables, control de habitaciones y seguimiento de incidentes o actividades.
@@ -20,9 +20,9 @@ Actualmente, el proyecto hace uso de:
 *(Nota: No se utiliza Entity Framework para el acceso a datos)*
 
 ## Base de datos
-El sistema utiliza **SQL Server**. En el directorio principal del repositorio existe el script `CreateSeniorCareDB.sql` utilizado para construir la base de datos y toda su estructura.
+El sistema utiliza **SQL Server**. En el directorio principal del repositorio existe el script `CreateVITALIADB.sql` utilizado para construir la base de datos y toda su estructura.
 
-La base de datos se llama **SeniorCareDB** y consta de las siguientes 11 tablas (con relaciones establecidas mediante claves primarias y foráneas):
+La base de datos se llama **VITALIADB** y consta de las siguientes 11 tablas (con relaciones establecidas mediante claves primarias y foráneas):
 - Usuarios
 - Habitaciones
 - Residentes
@@ -39,8 +39,8 @@ La base de datos se llama **SeniorCareDB** y consta de las siguientes 11 tablas 
 Hasta el momento, se ha completado:
 - Configuración inicial del proyecto ASP.NET Core MVC.
 - Conexión con SQL Server mediante ADO.NET.
-- Configuración de la cadena de conexión `SeniorCareConnection`.
-- Creación de la clase `ConexionBD` para obtener conexiones a `SeniorCareDB`.
+- Configuración de la cadena de conexión `VITALIAConnection`.
+- Creación de la clase `ConexionBD` para obtener conexiones a `VITALIADB`.
 - Creación del modelo `Residente`.
 - Acceso a datos a través de `ResidenteData`.
 - Consulta para listar los residentes (ordenados por apellido y nombre) utilizando `SqlConnection`, `SqlCommand` y `SqlDataReader`.
@@ -64,7 +64,7 @@ El sistema crecerá progresivamente para incluir las siguientes características
 
 ## Estructura actual del proyecto
 ```text
-SeniorCare/
+VITALIA/
 ├── Controllers/
 ├── Data/
 ├── Models/
@@ -72,7 +72,7 @@ SeniorCare/
 ├── wwwroot/
 ├── Program.cs
 ├── appsettings.json
-└── SeniorCare.csproj
+└── VITALIA.csproj
 ```
 
 ## Requisitos

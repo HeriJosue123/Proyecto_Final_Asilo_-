@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.Data.SqlClient;
-using SeniorCare.Models;
+using VITALIA.Models;
 
-namespace SeniorCare.Data
+namespace VITALIA.Data
 {
     public class ResidenteData
     {
