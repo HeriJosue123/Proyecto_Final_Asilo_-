@@ -79,29 +79,7 @@ SeniorCare/
 Para ejecutar este proyecto de manera local, necesitas:
 - SDK de .NET compatible con el proyecto.
 - SQL Server.
-- Visual Studio o un IDE compatible con ASP.NET Core.
-- Git para clonar el repositorio.
 
-## Instalación
-Sigue estos pasos para levantar el proyecto localmente:
-1. Clonar el repositorio.
-2. Abrir el proyecto en tu IDE preferido.
-3. Crear y configurar la base de datos ejecutando el script `CreateSeniorCareDB.sql` en tu servidor.
-4. Verificar la cadena de conexión en el archivo `appsettings.json`.
-5. Restaurar dependencias del proyecto.
-6. Compilar.
-7. Ejecutar el proyecto.
-
-## Desarrollo académico
-Este sistema se desarrolla como proyecto final de la asignatura de **Programación II**. A lo largo de su construcción se aplican (o se aplicarán durante el desarrollo) los siguientes conceptos de la materia:
-- Clases y objetos.
-- Colecciones.
-- LINQ.
-- Lambda.
-- ADO.NET.
-- SQL Server.
-- Relaciones entre datos.
-- DateTime.
 
 ## Integrantes del equipo
 
